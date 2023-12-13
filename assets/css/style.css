@@ -31,12 +31,13 @@ p {
     text-align: center;
 }
 
-.btn, .btn:hover {
+.btn,
+.btn:hover {
     color: #fff;
-    
+
     cursor: pointer;
     border-radius: 5px;
-    
+
     padding: 5px 12px;
 }
 
@@ -107,7 +108,7 @@ header .bg-gradient {
 }
 
 body {
-    background: url("../img/BG.png");
+    background: url("../img/landing-bg-1.jpg");
     background-size: cover;
 }
 
@@ -147,6 +148,7 @@ header p {
     font: 600 12px/15px Poppins;
     letter-spacing: 0.24px;
     color: #191919;
+    padding-top: 10px;
 }
 
 .ReactTitle {
@@ -250,7 +252,7 @@ footer {
 }
 
 .theme-switch-chathams_blue:hover {
-  box-shadow: 2px 2px 2px var(--chathams_blue);
+    box-shadow: 2px 2px 2px var(--chathams_blue);
 }
 
 .theme-switch-tamarillo {
@@ -258,7 +260,7 @@ footer {
 }
 
 .theme-switch-tamarillo:hover {
-  box-shadow: 2px 2px 2px var(--tamarillo);
+    box-shadow: 2px 2px 2px var(--tamarillo);
 }
 
 .theme-switch-yellow_sea {
@@ -266,5 +268,5 @@ footer {
 }
 
 .theme-switch-yellow_sea:hover {
-  box-shadow: 2px 2px 2px var(--yellow_sea);
+    box-shadow: 2px 2px 2px var(--yellow_sea);
 }
